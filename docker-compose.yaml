@@ -1,0 +1,14 @@
+version: "2.1"
+services:
+  savageDoku:
+    image: lscr.io/linuxserver/dokuwiki
+    container_name: savageDoku
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Denver
+    volumes:
+      - /var/lib/docker/volumes/savageDoku/config:/config
+    ports:
+      - 8080:80
+    restart: unless-stopped
