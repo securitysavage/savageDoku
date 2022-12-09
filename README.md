@@ -8,4 +8,4 @@ Next, run ```sudo mkdir /var/lib/docker/volumes/savageDoku/config```.
 Now, run ```docker-compose up -d``` (using docker-compose from AUR) or ```docker compose up -d``` (other platforms) and navigate to http://localhost:8080/install.php to set up the wiki. Too easy.
 
 TODO:
-Make the readme pretty
+Actually spin this up and start putting my notes in it lol rekt
