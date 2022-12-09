@@ -6,7 +6,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=America/Denver
+      - TZ=Etc/UTC
     volumes:
       - /var/lib/docker/volumes/savageDoku/config:/config
     ports:
