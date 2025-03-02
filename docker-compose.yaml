@@ -10,5 +10,5 @@ services:
     volumes:
       - /var/lib/docker/volumes/savageDoku/config:/config
     ports:
-      - 8080:80
+      - 6969:80
     restart: unless-stopped
